@@ -153,6 +153,9 @@ img {
   margin: 0 auto;
   max-width: 1600px;
 }
+.hero-flex {
+  text-align: center;
+}
 .hero-title {
   color: var(--color-white);
   text-transform: uppercase;
@@ -328,9 +331,6 @@ img {
   padding-top: 0;
 }
 
-.hero-flex {
-  text-align: center;
-}
 .features-flex {
   display: flex;
   flex-basis: calc((100% - 90px) / 4);
