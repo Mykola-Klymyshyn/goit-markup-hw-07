@@ -63,6 +63,7 @@ p,
 ul {
   margin: 0px;
   padding: 0px;
+  list-style: none;
 }
 img {
   display: block;
@@ -796,9 +797,22 @@ img {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.modal-form__checkbox-button {
+.modal-form__button {
   display: block;
   margin: 0 auto 40px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: inherit;
+  line-height: 1.87;
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  letter-spacing: 0.06em;
+  border: none;
+  padding: 10px 32px;
+  border-radius: 4px;
+  transition: background-color var(--transition-duration) var(--transition-timing-function),
+    box-shadow var(--transition-duration) var(--transition-timing-function);
+  cursor: pointer;
 }
 
 /* Checkbox */
