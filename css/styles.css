@@ -5,7 +5,7 @@
   --color-white: #ffffff;
   --color-hero: #2f303a;
   --color-footer: #2f303a;
-  --color-team: #f5f4fa;
+  --background-color-team: #f5f4fa;
   --color-hero-button: #188ce8;
   --color-address: rgba(255, 255, 255, 0.6);
   --font-logo: 'Raleway', sans-serif;
@@ -190,7 +190,7 @@ img {
   max-width: 696px;
   margin: 0 auto 30px;
 }
-.hero__button {
+.button {
   font-size: 16px;
   font-weight: 700;
   font-family: inherit;
@@ -199,16 +199,20 @@ img {
   color: var(--color-white);
   letter-spacing: 0.06em;
   border: none;
-  padding: 10px 32px;
   border-radius: 4px;
   transition: background-color var(--transition-duration) var(--transition-timing-function),
     box-shadow var(--transition-duration) var(--transition-timing-function);
+  cursor: pointer;
 }
-.hero__button:hover,
-.hero__button:focus {
+
+.hero__button {
+  padding: 10px 32px;
+}
+
+.button:hover,
+.button:focus {
   background-color: var(--color-hero-button);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
 }
 
 /* Features-section*/
@@ -296,8 +300,8 @@ img {
 }
 /* Ourteam-section*/
 
-.ourteam {
-  background-color: var(--color-team);
+.section--bgr {
+  background-color: var(--background-color-team);
 }
 .ourteam-flex {
   display: flex;
@@ -624,32 +628,19 @@ img {
   color: var(--color-white);
   margin-bottom: 20px;
 }
-.footer-submit__btn {
+.footer__button {
   display: inline-flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   width: 200px;
-  height: 50px;
-  font-size: 16px;
-  font-weight: 700;
-  font-family: inherit;
-  line-height: 1.87;
-  background-color: var(--color-accent);
-  color: var(--color-white);
-  letter-spacing: 0.06em;
-  border: none;
   padding: 10px 28px;
-  border-radius: 4px;
-  transition: background-color var(--transition-duration) var(--transition-timing-function),
-    box-shadow var(--transition-duration) var(--transition-timing-function);
-  cursor: pointer;
 }
 .footer-submit__icon {
   fill: var(--color-white);
 }
-.footer-submit__btn:hover,
-.footer-submit__btn:focus {
+.footer__button:hover,
+.footer__button:focus {
   background-color: var(--color-hero-button);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -713,7 +704,7 @@ img {
   transform: translate(-50%, -50%) scale(1.5);
 }
 
-.modal__close {
+.modal__close-btn {
   position: absolute;
   display: flex;
   align-items: center;
@@ -798,21 +789,10 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 .modal-form__button {
-  display: block;
+  display: inline-flex;
+  justify-content: center;
   margin: 0 auto 40px;
-  font-size: 16px;
-  font-weight: 700;
-  font-family: inherit;
-  line-height: 1.87;
-  background-color: var(--color-accent);
-  color: var(--color-white);
-  letter-spacing: 0.06em;
-  border: none;
-  padding: 10px 32px;
-  border-radius: 4px;
-  transition: background-color var(--transition-duration) var(--transition-timing-function),
-    box-shadow var(--transition-duration) var(--transition-timing-function);
-  cursor: pointer;
+  padding: 10px 52px;
 }
 
 /* Checkbox */
