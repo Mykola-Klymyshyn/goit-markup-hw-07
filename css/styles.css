@@ -789,9 +789,9 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 .modal-form__button {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
-  margin: 0 auto 40px;
+  margin:0 auto 40px;
   padding: 10px 52px;
 }
 
