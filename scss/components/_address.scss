@@ -1,0 +1,23 @@
+.address__list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 9px;
+    margin-top: 20px;
+  }
+  .address__link {
+    font-style: normal;
+    text-decoration: none;
+    color: var(--color-address);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    transition: color var(--transition-duration) var(--transition-timing-function);
+  }
+  .address__link:hover,
+  .address__link:focus {
+    color: var(--color-accent);
+  }
+  .maps-location {
+    color: var(--color-white);
+  }

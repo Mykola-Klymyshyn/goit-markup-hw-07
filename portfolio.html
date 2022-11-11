@@ -9,18 +9,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
       <div class="container box">
-        <a class="logo" href="./index.html"> Web<span class="header__logo">Studio</span> </a>
+        <a class="logo" href="./index.html"> Web<span class="logo--black">Studio</span> </a>
         <nav class="header-nav">
           <ul class="site-nav list-reset">
             <li class="site-nav__item">
@@ -286,9 +287,9 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container parrent-position">
+      <div class="container footer__parrent-position">
         <div class="footer-flex">
-          <a class="logo" href="./index.html"> Web<span class="footer__logo">Studio</span></a>
+          <a class="logo" href="./index.html"> Web<span class="logo--white">Studio</span></a>
           <address class="address">
             <ul class="address__list list-reset">
               <li class="address__item">
@@ -352,7 +353,7 @@
               type="email"
               placeholder="E-mail"
             />
-            <button class="footer-submit__btn" type="submit">
+            <button class="footer__button button" type="submit">
               Підписатися
               <svg class="footer-submit__icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-icon-send"></use>

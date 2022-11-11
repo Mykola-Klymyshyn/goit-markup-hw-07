@@ -1,0 +1,29 @@
+
+  body {
+    font-size: 16px;
+    font-style: normal;
+    color: var(--primary-text-color);
+    font-family: var(--font-family-primary);
+    padding-top: 80px;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
