@@ -1,32 +1,30 @@
 
 .card-social {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
-  .card-social__list {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    padding-bottom: 30px;
-  }
-  
-  .card-social__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-items: center;
-    background-color: var(--color-white);
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    fill: var(--color-icon);
-    transition: fill var(--transition-duration) var(--transition-timing-function),
-      background-color var(--transition-duration) var(--transition-timing-function);
-  }
-  
-  .card-social__link:hover,
-  .card-social__link:focus {
-    fill: var(--color-white);
-    background-color: var(--color-accent);
-  }
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  &__list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+&__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  background-color: var(--color-white);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--color-icon);
+  transition: fill var(--transition-duration) var(--transition-timing-function),
+    background-color var(--transition-duration) var(--transition-timing-function);
+}
+&__link:hover,
+&__link:focus {
+  fill: var(--color-white);
+  background-color: var(--color-accent);
+}
+}

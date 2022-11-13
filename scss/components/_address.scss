@@ -1,11 +1,12 @@
-.address__list {
+.address{
+  &__list {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     gap: 9px;
     margin-top: 20px;
   }
-  .address__link {
+  &__link {
     font-style: normal;
     text-decoration: none;
     color: var(--color-address);
@@ -14,10 +15,11 @@
     letter-spacing: 0.02em;
     transition: color var(--transition-duration) var(--transition-timing-function);
   }
-  .address__link:hover,
-  .address__link:focus {
+  &__link:hover,
+  &__link:focus {
     color: var(--color-accent);
   }
-  .maps-location {
+  &__maps--white{
     color: var(--color-white);
   }
+}

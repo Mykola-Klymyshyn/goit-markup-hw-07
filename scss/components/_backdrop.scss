@@ -1,17 +1,18 @@
 .backdrope {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
-    transition: opacity var(--transition-duration) var(--transition-timing-function),
-      visibility var(--transition-duration) var(--transition-timing-function);
-  }
-  .backdrope.is-hidden {
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-    z-index: 2;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity var(--transition-duration) var(--transition-timing-function),
+    visibility var(--transition-duration) var(--transition-timing-function);
+
+  &.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+}
