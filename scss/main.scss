@@ -1,11 +1,14 @@
+// Untils
 @import'./utils/variables';
 @import'./utils/base';
 @import'./utils/utils';
 
+// Components
 @import'./components/address';
 @import'./components/backdrop';
 @import'./components/button';
 @import'./components/card-social-link';
+@import'./components/contacts';
 @import'./components/container';
 @import'./components/customers-section';
 @import'./components/features-section';
@@ -17,5 +20,6 @@
 @import'./components/porfolio-filters-button';
 @import'./components/header';
 @import'./components/hero-section';
+@import'./components/site-nav';
 @import'./components/section';
 @import'./components/specifics-section';
