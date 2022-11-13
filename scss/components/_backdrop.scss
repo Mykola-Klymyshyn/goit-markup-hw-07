@@ -16,3 +16,6 @@
   z-index: 2;
 }
 }
+.backdrope.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(1.5);
+}

@@ -1,24 +1,13 @@
 
 .specifics {
   padding-top: 0;
-}
-
-.specifics-flex {
-  display: flex;
-  flex-direction: column;
-  flex-basis: calc((100% - 60px) / 3);
-}
-.specifics-relative {
-  position: relative;
-}
-
-.specifics__list {
+ &__list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 30px;
 }
-.specifics__title {
+&__title {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -27,7 +16,7 @@
   text-align: center;
 }
 
-.specifics__text {
+&__text {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -39,4 +28,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+}
+
+.specifics-flex {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc((100% - 60px) / 3);
+}
+.specifics-relative {
+  position: relative;
 }
